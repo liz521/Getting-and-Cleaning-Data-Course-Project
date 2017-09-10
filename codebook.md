@@ -44,14 +44,14 @@ variable:
 subject: name the subject
 activity: name the activity
 
-#Uses descriptive activity names to name the activities
+# Uses descriptive activity names to name the activities
 
-#Appropriately labels the data set
+# Appropriately labels the data set
 names(finalData) <- gsub("\\()", "", names(finalData))
 names(finalData) <- gsub("^t", "time", names(finalData))
 names(finalData) <- gsub("^f", "frequence", names(finalData))
 names(finalData) <- gsub("-mean", "Mean", names(finalData))
 names(finalData) <- gsub("-std", "Std", names(finalData))
 
-#Final output:tidyData.txt
+# Final output:tidyData.txt
 180 obs. of  68 variables
