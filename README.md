@@ -3,9 +3,12 @@ Coursera Project
 The purpose of this project is to demonstrate your ability to collect, work with, and clean a data set.
 
 ## About files
-### run_analysis.R: is the script, one can run in Rstudio
-### codebook.txt: indicate all the variables and summaries calculated, along with units, and any other relevant information
-### tidyData.txt: is the final tidy data set
+### run_analysis.R
+the script, one can run in Rstudio
+### codebook.txt
+indicate all the variables and summaries calculated, along with units, and any other relevant information
+### tidyData.txt
+the final tidy data set that output
 
 ## How the script works
 * Merges the training and the test sets to create one data set.
