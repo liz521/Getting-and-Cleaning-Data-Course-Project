@@ -53,4 +53,4 @@ groupData <- finalData %>%
       group_by(subject, activity) %>%
       summarise_all(funs(mean))
 
-write.table(groupData, "C:/Users/59920/Getting-and-Cleaning-Data-Course-Project/MeanData.txt", row.names = FALSE)
+write.table(groupData, "C:/Users/59920/Getting-and-Cleaning-Data-Course-Project/tidyData.txt", row.names = FALSE)
